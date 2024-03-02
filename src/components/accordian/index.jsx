@@ -1,4 +1,4 @@
-/*single selection*/
+//ingle selection
 //multiple selection
 
 import { useState } from "react";
@@ -12,7 +12,7 @@ const Accordian = () => {
 
   const handleSingleSelection = (getCurrentId) => {
     setSelected(getCurrentId === selected ? null : getCurrentId);
-  }
+  };
 
   const handleMultipleSelection = (getCurrentId) => {
     let cpyMultiple = [...multiple];
@@ -23,7 +23,7 @@ const Accordian = () => {
     else cpyMultiple.splice(findIndexOfCurrentId, 1);
 
     setMultiple(cpyMultiple);
-  }
+  };
 
   console.log(selected, multiple);
   return (
@@ -46,7 +46,8 @@ const Accordian = () => {
                 <h3>{dataItem.question}</h3>
                 <span>+</span>
               </div>
-              {selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ? (
+              {selected === dataItem.id ||
+              multiple.indexOf(dataItem.id) !== -1 ? (
                 <div className="content">{dataItem.answer}</div>
               ) : null}
             </div>
