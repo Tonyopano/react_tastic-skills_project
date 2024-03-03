@@ -1,15 +1,19 @@
-import './App.css';
-import Accordian from './components/accordian';
+import React from "react";
+import "./App.css";
+import Accordian from "./components/accordian";
+import RandomColor from "./components/random-color_generator"
 
-import React from 'react'
 
 const App = () => {
   return (
     <div className="App">
-    {/*Accordion component*/}
-    <Accordian />
+      {/*Accordion component*/}
+      {/* <Accordian /> */}
+
+      {/* {Random color generator component} */}
+      <RandomColor />
     </div>
-  )
-}
+  );
+};
 
 export default App;
