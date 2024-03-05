@@ -1,4 +1,4 @@
-//ingle selection
+//Single selection
 //multiple selection
 
 import { useState } from "react";
