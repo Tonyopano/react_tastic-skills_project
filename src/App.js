@@ -4,6 +4,7 @@ import Accordian from "./components/accordian";
 import RandomColor from "./components/random-color_generator";
 import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 
 const App = () => {
   return (
@@ -18,13 +19,16 @@ const App = () => {
       {/* {<StarRating noOfStars={10} />} */}
 
       {/* {Image slider component} */}
-      {
+      {/* {
         <ImageSlider
           url={"https://picsum.photos/v2/list"}
           page={"1"}
           limit={"10"}
         />
-      }
+      } */}
+
+      {/* {Load more data component} */}
+      {<LoadMoreData />}
     </div>
   );
 };
