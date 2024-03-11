@@ -17,7 +17,8 @@
 .arrow {
     position: absolute;
     width: 2rem;
-    color: white;
+    height: 2rem;
+    color: #fff;
     filter: drop-shadow(0px 0px 5px #555);
 }
 
@@ -26,7 +27,8 @@
 }
 
 .arrow-right {
-    right: 1rem;    
+    padding-right: 7rem;
+    right: 0.5rem;    
 }
 
 .circle-indicator {
@@ -36,7 +38,7 @@
 }
 
 .current-indicator {
-    background-color: white;
+    background-color: #ffffff;
     height: 15px;
     width: 15px;
     border-radius: 50%;
