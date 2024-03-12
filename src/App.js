@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
       {/*Accordion component*/}
-      {/* <Accordian /> */}
+      <Accordian />
 
       {/* {Random color generator component} */}
       {/* <RandomColor /> */}
@@ -28,7 +28,7 @@ const App = () => {
       } */}
 
       {/* {Load more data component} */}
-      {<LoadMoreData />}
+      {/* {<LoadMoreData />} */}
     </div>
   );
 };

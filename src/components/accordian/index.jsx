@@ -53,7 +53,7 @@ const Accordian = () => {
             </div>
           ))
         ) : (
-          <div>No dta found !</div>
+          <div>No data found !</div>
         )}
       </div>
     </div>
