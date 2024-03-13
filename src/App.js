@@ -5,12 +5,13 @@ import RandomColor from "./components/random-color_generator";
 import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
 
 const App = () => {
   return (
     <div className="App">
       {/*Accordion component*/}
-      <Accordian />
+      {/* <Accordian /> */}
 
       {/* {Random color generator component} */}
       {/* <RandomColor /> */}
@@ -29,6 +30,9 @@ const App = () => {
 
       {/* {Load more data component} */}
       {/* {<LoadMoreData />} */}
+
+      {/* Tree view component/menu UI component / recursive navigation menu */}
+      <TreeView menus={menus} />
     </div>
   );
 };
