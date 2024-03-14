@@ -6,6 +6,7 @@ import StarRating from "./components/star-rating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
+import LightDarkMode from "./components/light-dark-mode";
 
 const App = () => {
   return (
@@ -32,7 +33,10 @@ const App = () => {
       {/* {<LoadMoreData />} */}
 
       {/* Tree view component/menu UI component / recursive navigation menu */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+
+      {/* light and dark mode switch */}
+      <LightDarkMode />
     </div>
   );
 };
