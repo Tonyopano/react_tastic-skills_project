@@ -7,6 +7,7 @@ import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
 
 const App = () => {
   return (
@@ -36,7 +37,10 @@ const App = () => {
       {/* <TreeView menus={menus} /> */}
 
       {/* light and dark mode switch */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* Scroll indicator in broser */}
+      <ScrollIndicator url='https://dummyjson.com/products?limit=100'/>
     </div>
   );
 };
