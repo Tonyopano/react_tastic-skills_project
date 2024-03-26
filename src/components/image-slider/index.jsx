@@ -9,8 +9,8 @@ import "./style.css";
 // creating Image slider component which
 const ImageSlider = ({ url, limit = 5, page = 1 }) => {
   const [images, setImages] = useState([]); //for setting images in state
-  const [currentSlide, setCurrentSlide] = useState(0); //for setting current slide on the slider
-  const [errorMsg, setErrorMsg] = useState(null); //for displaying error messages when loading images fail
+  const [currentSlide, setCurrentSlide] = useState(0); //for setting current slide on the slider selected when the slider is selected.
+  const [errorMsg, setErrorMsg] = useState(null); //for setting error messages incase of failure when loading images.
   const [loading, setLoading] = useState(false); //for setting loading while fetching images from API
 
 
