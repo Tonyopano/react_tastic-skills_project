@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Accordian from "./components/accordian";
-import RandomColor from "./components/random-color_generator";
-import StarRating from "./components/star-rating";
-import ImageSlider from "./components/image-slider";
-import LoadMoreData from "./components/load-more-data";
-import TreeView from "./components/tree-view";
-import LightDarkMode from "./components/light-dark-mode";
-import ScrollIndicator from "./components/scroll-indicator";
+import Accordian from "../accordian";
+import RandomColor from "../random-color_generator";
+import StarRating from "../star-rating";
+import ImageSlider from "../image-slider";
+import LoadMoreData from "../load-more-data";
+import TreeView from ".";
+import LightDarkMode from "../light-dark-mode";
+import ScrollIndicator from "../scroll-indicator";
 
 const App = () => {
   return (

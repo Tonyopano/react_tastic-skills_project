@@ -11,7 +11,7 @@ const ImageSlider = ({ url, limit = 5, page = 1 }) => {
   const [images, setImages] = useState([]); //for setting images in state
   const [currentSlide, setCurrentSlide] = useState(0); //for setting current slide on the slider selected when the slider is selected.
   const [errorMsg, setErrorMsg] = useState(null); //for setting error messages incase of failure when loading images.
-  const [loading, setLoading] = useState(false); //for setting loading while fetching images from API
+  const [loading, setLoading] = useState(false); //for setting loading state while fetching images from API
 
 
 // Fetch images from the server url and load them into the browser window using the specified parameters and callback function for each loaded image.
